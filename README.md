@@ -1,6 +1,6 @@
 # Visawise Releases
 
-This repository holds the signed release builds and auto-update manifests for [Visawise](https://karthikkadambi.com/projects/visawise/), a desktop app for tracking immigration status and cross-border finances.
+This repository holds the release builds and auto-update manifests for [Visawise](https://karthikkadambi.com/projects/visawise/), a desktop app for tracking immigration status and cross-border finances. Update files are signed with a private key so the app can verify they haven't been tampered with before installing - this is separate from Apple code-signing/notarization, which this app doesn't have yet, so macOS may warn that the app isn't from an identified developer on first install.
 
 There's no source code here on purpose. This repo exists only to host the compiled app and its update files - the actual source lives in a private repository.
 
@@ -10,7 +10,7 @@ Get the app from the [Visawise page](https://karthikkadambi.com/projects/visawis
 
 ## About Visawise
 
-Visawise is a free, non-commercial personal project by [Karthik Kadambi](https://karthikkadambi.com/), built while navigating the same H1B visa timeline and cross-border finances it helps track. It runs entirely on your own machine with a local database - nothing is required to leave your device.
+Visawise is a free, non-commercial personal project by [Karthik Kadambi](https://karthikkadambi.com/), built while navigating the same H1B visa timeline and cross-border finances it helps track. It runs entirely on your own machine with a local database. A small, anonymous usage ping (no personal data) is sent by default to help guide what's worth building next.
 
 ## Releases
 
